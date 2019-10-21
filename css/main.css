@@ -1,0 +1,40 @@
+body {
+  background-color: #1e3553;
+  color: white; }
+
+h1, h2 {
+  text-align: center; }
+
+.options {
+  margin: 0 auto;
+  width: fit-content; }
+  .options h2 {
+    display: inline-block; }
+
+button {
+  cursor: pointer; }
+
+.gameBoard {
+  background-color: white;
+  color: #1e3553;
+  width: 50%;
+  margin: auto;
+  height: 304px; }
+
+.col {
+  float: left;
+  width: 33.33%; }
+  .col :nth-child(1) {
+    border-top: none; }
+  .col :nth-child(3) {
+    border-bottom: none; }
+
+.spot {
+  border: black solid 2px;
+  background-color: white;
+  color: #f50000;
+  height: 80px;
+  padding-top: 20px;
+  font-size: 50px;
+  text-align: center;
+  cursor: pointer; }
