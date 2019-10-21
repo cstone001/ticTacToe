@@ -1,0 +1,55 @@
+/*COLORS*/
+$text-color: rgb(255, 255, 255);
+$background-color: rgb(30, 53, 83);
+$spotText-color: rgb(245, 0, 0);
+
+body {
+    background-color: $background-color;
+    color: $text-color;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+.options {
+    margin: 0 auto;
+    width: fit-content;
+    h2 {
+        display: inline-block;
+    }
+}
+
+button {
+    cursor: pointer;
+}
+
+.gameBoard {
+    background-color: $text-color;
+    color: $background-color;
+    width: 50%;
+    margin: auto;
+    height: 304px;
+}
+
+.col {
+    float: left;
+    width: 33.33%;
+    :nth-child(1) {
+        border-top: none;   
+    }
+    :nth-child(3) {
+        border-bottom: none;    
+    }
+}
+
+.spot {
+    border: black solid 2px;
+    background-color: $text-color;
+    color: $spotText-color;
+    height: 80px;
+    padding-top: 20px;
+    font-size: 50px;
+    text-align: center;
+    cursor: pointer;
+}
